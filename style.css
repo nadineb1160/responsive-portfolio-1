@@ -1,17 +1,32 @@
-.col-lg-9 {
-    background-color: aqua;
-}
-
-.col-md-4 {
-    background-color: blueviolet;
-}
-
+/* Navbar side bars */
 li {
     border-right: 1px solid hsl(0, 0%, 0%);
 }
 
 li:last-child {
     border: none;
+}
+
+.container {
+    float: left;
+    justify-content: right;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px;
+    padding: 10px;
+    /*max-width for larger screen, change to 100% for smaller */
+    max-width: 66.67%;
+    background-color: aqua;
+    
+}
+/* 
+#content {
+    float: right;
+    background-color: aqua;
+} */
+
+.col-md-4 {
+    background-color: blueviolet;
 }
 
 #grad {
@@ -23,3 +38,12 @@ li:last-child {
 p {
     padding: 10px;
 }
+
+img {
+    max-width: 40%;
+    padding: 10px;
+    /* fix image inside of box */
+}
+
+
+
