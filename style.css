@@ -13,3 +13,13 @@ li {
 li:last-child {
     border: none;
 }
+
+#grad {
+    float: left;
+    max-height: 200px;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
