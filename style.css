@@ -1,3 +1,15 @@
 .col-lg-9 {
     background-color: aqua;
 }
+
+.col-md-4 {
+    background-color: blueviolet;
+}
+
+li {
+    border-right: 1px solid hsl(0, 0%, 0%);
+}
+
+li:last-child {
+    border: none;
+}
