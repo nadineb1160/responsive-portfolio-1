@@ -71,14 +71,21 @@ hr {
 }
 
 /* portfolio images */
-.portfolio {
-    max-width: 50%;
-    min-width: 40%;
+.card {
+    /* max-width: 50%; */
+    /* min-width: 40%; */
     margin: 10px;
     align-self: center;
     
     /* position: absolute; */
     /* fix image inside of box */
+}
+
+h5 {
+    background-color: teal;
+    color: white;
+    padding: 10px;
+    
 }
 
 .sticky-footer {
@@ -125,7 +132,7 @@ hr {
     }
 
     /* set min-width and margins */
-    .portfolio {
+    .card {
         min-width: 90%;
         margin: 10px 0px 10px 0px;
     }
