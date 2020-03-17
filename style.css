@@ -32,10 +32,10 @@ li:last-child {
 
 /* Main container */
 .container {
-    float: left;
-    justify-content: right;
+    /* float: left; */
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     margin: 20px 20px 100px 20px;
     padding: 10px;
     /*max-width for larger screen, change to 100% for smaller */
@@ -75,6 +75,7 @@ hr {
     max-width: 50%;
     min-width: 40%;
     margin: 10px;
+    align-self: center;
     
     /* position: absolute; */
     /* fix image inside of box */
