@@ -1,12 +1,18 @@
-
+/* Background color */
 body {
     background-color: grey;
 }
 
+/* Top Title */
 .title {
     padding: 30px;
-    margin: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
     background-color: teal;
+}
+/* Title font color */
+.navbar-brand {
+    color: white;
 }
 
 /* Navbar side bars */
@@ -14,18 +20,17 @@ li {
     border-right: 1px solid grey;
 }
 
+/* Remove border from last li */
 li:last-child {
     border: none;
 }
 
+/* Navbar links  */
 .nav-link {
     color: grey;
 }
 
-.navbar-brand {
-    color: white;
-}
-
+/* Main container */
 .container {
     float: left;
     justify-content: right;
@@ -36,9 +41,11 @@ li:last-child {
     /*max-width for larger screen, change to 100% for smaller */
     max-width: 66.67%;
     background-color: white;
+    position: relative;
     
 }
 
+/* Gradution Image */
 #grad {
     float: left;
     max-height: 300px;
@@ -46,55 +53,71 @@ li:last-child {
     padding-bottom: 10px;
 }
 
+/* h1 on each page */
 h1 {
     color: teal;
 
 }
 
+/* Text on About me */
 p {
     /* padding: 10px; */
     color: grey;
 }
 
+/* hr in container */
 hr {
     color: grey;
 }
 
-
+/* portfolio images */
 .portfolio {
-    max-width: 40%;
-    padding: 10px;
+    max-width: 50%;
+    min-width: 40%;
+    margin: 10px;
+    
+    /* position: absolute; */
     /* fix image inside of box */
 }
 
 
 @media (max-width: 640px) {
+    /* spread title 100% width and center text */
     .title {
         min-width: 100%;
         text-align: center;
     }
+
+    /* center navbar text */
     .navbar {
         justify-content: center;
     }
+
+    /* spread container */
     .container {
         min-width: 100%;
-        margin: 15px;
+        /* margin: 15px; */
         /* justify-content: center; */
         /* display: block; */
         
     }
+    /* center image */
     #grad {
         /* display: block;  */
         margin-right: auto;
         margin-left: auto;
         /* min-width: 300px; */
     }
+
+    /* clear float of text*/
     p {
         clear: both;
     }
-    
-    img {
 
+    /* set min-width and margins */
+    .portfolio {
+        min-width: 90%;
+        margin: 10px 0px 10px 0px;
     }
 }
 
