@@ -98,6 +98,19 @@ h5 {
     color: grey;
 }
 
+/* **** CONTACT - PAGE **** */
+
+/* Name and Email form - adjust width */
+.form-control {
+    width: 500px;
+}
+
+/* Message form - adjust width and height */
+#formGroupExampleInput3 {
+    width: 500px; 
+    height: 200px
+}
+
 /* **** WHEN SCREEN IS LESS THAT 640PX **** */
 
 @media (max-width: 640px) {
@@ -137,6 +150,5 @@ h5 {
     /* set min-width and margins */
     .card {
         min-width: 90%;
-        /* margin: 10px 0px 10px 0px; */
     }
 }
