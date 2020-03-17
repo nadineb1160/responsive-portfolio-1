@@ -73,16 +73,12 @@ p {
 
 /* Portfolio images */
 .card {
-    /* max-width: 50%; */
-    /* min-width: 40%; */
-    margin: 10px;
-    align-self: center;
-    
-    /* position: absolute; */
-    /* fix image inside of box */
+    margin: 0 10px 30px 10px;
+    width: 400px;
+    float: left;
 }
 
-/* Name header link */
+/* Portfolio header overlay */
 h5 {
     background-color: teal;
     color: white;
@@ -90,19 +86,23 @@ h5 {
     
 }
 
-/* Sticky Footer*/
+/* **** STICKY FOOTER ***** */
 .sticky-footer {
     position: fixed;
+    text-align: center;
     bottom: 0;
     height: 50px;
     width: 100%;
-    z-index: 2;
-    text-align: center;
     margin-top: 10px;
+    z-index: 2;
+    color: grey;
 }
 
+/* **** WHEN SCREEN IS LESS THAT 640PX **** */
+
 @media (max-width: 640px) {
-    /* spread title 100% width and center text */
+    
+    /* expand and center "Nadine Bundschuh" */
     .title {
         min-width: 100%;
         text-align: center;
@@ -116,11 +116,9 @@ h5 {
     /* spread container */
     .container {
         min-width: 90%;
-        /* margin: 15px; */
-        /* justify-content: center; */
-        /* display: block; */
         
     }
+
     /* center image */
     #grad {
         /* display: block;  */
@@ -131,7 +129,7 @@ h5 {
         /* align-self: center; */
     }
 
-    /* clear float of text*/
+    /* clear float of text */
     p {
         clear: both;
     }
@@ -139,6 +137,6 @@ h5 {
     /* set min-width and margins */
     .card {
         min-width: 90%;
-        margin: 10px 0px 10px 0px;
+        /* margin: 10px 0px 10px 0px; */
     }
 }
