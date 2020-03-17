@@ -1,10 +1,24 @@
+.title {
+    padding: 10px;
+    background-color: teal;
+}
+
 /* Navbar side bars */
 li {
     border-right: 1px solid hsl(0, 0%, 0%);
+    color: grey;
 }
 
 li:last-child {
     border: none;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-item {
+    color: teal;
 }
 
 .container {
@@ -16,7 +30,7 @@ li:last-child {
     padding: 10px;
     /*max-width for larger screen, change to 100% for smaller */
     max-width: 66.67%;
-    background-color: aqua;
+    background-color: teal;
     
 }
 /* 
@@ -31,7 +45,7 @@ li:last-child {
 
 #grad {
     float: left;
-    max-height: 200px;
+    max-height: 250px;
     padding: 10px;
 }
 
@@ -46,4 +60,9 @@ img {
 }
 
 
-
+@media only screen and (max-width: 640px) {
+    nav {
+        clear: both;
+        justify-content: center;
+    }
+}
