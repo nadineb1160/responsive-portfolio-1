@@ -1,9 +1,12 @@
-/* Background color */
+/* **** BACKGROUND **** */
+
 body {
     background-color: grey;
 }
 
-/* Top Title */
+/* **** NAVIGATIN BAR **** */
+
+/* Top Title "Nadine Bundschuh" */
 .title {
     padding: 30px;
     margin-right: 20px;
@@ -30,27 +33,18 @@ li:last-child {
     color: grey;
 }
 
-/* Main container */
+/* **** MAIN CONTAINER **** */
+
 .container {
-    /* float: left; */
-    /* display: flex;
-    flex-wrap: wrap; */
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    /* add larger margin on bottom between content and footer */
     margin: 20px 20px 100px 20px;
     padding: 10px;
     /*max-width for larger screen, change to 100% for smaller */
     max-width: 66.67%;
     background-color: white;
-    position: relative;
+    /* position: relative; */
     
-}
-
-/* Gradution Image */
-#grad {
-    float: left;
-    max-height: 300px;
-    padding-right: 10px;
-    padding-bottom: 10px;
 }
 
 /* h1 on each page */
@@ -59,18 +53,25 @@ h1 {
 
 }
 
+/* **** ABOUT - PAGE **** */
+
+/* Graduation Image */
+#grad {
+    float: left;
+    max-height: 300px;
+    /* Padding only around text */
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
 /* Text on About me */
 p {
-    /* padding: 10px; */
     color: grey;
 }
 
-/* hr in container */
-hr {
-    color: grey;
-}
+/* **** PORTFOLIO - PAGE **** */
 
-/* portfolio images */
+/* Portfolio images */
 .card {
     /* max-width: 50%; */
     /* min-width: 40%; */
@@ -81,6 +82,7 @@ hr {
     /* fix image inside of box */
 }
 
+/* Name header link */
 h5 {
     background-color: teal;
     color: white;
@@ -88,6 +90,7 @@ h5 {
     
 }
 
+/* Sticky Footer*/
 .sticky-footer {
     position: fixed;
     bottom: 0;
@@ -121,9 +124,11 @@ h5 {
     /* center image */
     #grad {
         /* display: block;  */
+        clear: both;
+        align-self: center;
         margin-right: auto;
         margin-left: auto;
-        /* min-width: 300px; */
+        /* align-self: center; */
     }
 
     /* clear float of text*/
