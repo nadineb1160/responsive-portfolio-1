@@ -1,3 +1,4 @@
+
 body {
     background-color: grey;
 }
@@ -60,9 +61,9 @@ hr {
 }
 
 
-img {
+.portfolio {
     max-width: 40%;
-    /* padding: 10px; */
+    padding: 10px;
     /* fix image inside of box */
 }
 
@@ -78,7 +79,7 @@ img {
     .container {
         min-width: 100%;
         margin: 15px;
-        justify-content: center;
+        /* justify-content: center; */
         /* display: block; */
         
     }
@@ -92,6 +93,9 @@ img {
         clear: both;
     }
     
+    img {
+
+    }
 }
 
 
