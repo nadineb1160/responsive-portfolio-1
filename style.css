@@ -1,24 +1,28 @@
+body {
+    background-color: grey;
+}
+
 .title {
-    padding: 10px;
+    padding: 30px;
+    margin: 20px;
     background-color: teal;
 }
 
 /* Navbar side bars */
 li {
-    border-right: 1px solid hsl(0, 0%, 0%);
-    color: grey;
+    border-right: 1px solid grey;
 }
 
 li:last-child {
     border: none;
 }
 
-.navbar-brand {
-    color: white;
+.nav-link {
+    color: grey;
 }
 
-.nav-item {
-    color: teal;
+.navbar-brand {
+    color: white;
 }
 
 .container {
@@ -26,43 +30,68 @@ li:last-child {
     justify-content: right;
     display: flex;
     flex-wrap: wrap;
-    margin: 15px;
+    margin: 20px;
     padding: 10px;
     /*max-width for larger screen, change to 100% for smaller */
     max-width: 66.67%;
-    background-color: teal;
+    background-color: white;
     
-}
-/* 
-#content {
-    float: right;
-    background-color: aqua;
-} */
-
-.col-md-4 {
-    background-color: blueviolet;
 }
 
 #grad {
     float: left;
-    max-height: 250px;
-    padding: 10px;
+    max-height: 300px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    color: teal;
+
 }
 
 p {
-    padding: 10px;
+    /* padding: 10px; */
+    color: grey;
 }
+
+hr {
+    color: grey;
+}
+
 
 img {
     max-width: 40%;
-    padding: 10px;
+    /* padding: 10px; */
     /* fix image inside of box */
 }
 
 
-@media only screen and (max-width: 640px) {
-    nav {
-        clear: both;
+@media (max-width: 640px) {
+    .title {
+        min-width: 100%;
+        text-align: center;
+    }
+    .navbar {
         justify-content: center;
     }
+    .container {
+        min-width: 100%;
+        margin: 15px;
+        justify-content: center;
+        /* display: block; */
+        
+    }
+    #grad {
+        /* display: block;  */
+        margin-right: auto;
+        margin-left: auto;
+        /* min-width: 300px; */
+    }
+    p {
+        clear: both;
+    }
+    
 }
+
+
