@@ -36,7 +36,7 @@ li:last-child {
     justify-content: right;
     display: flex;
     flex-wrap: wrap;
-    margin: 20px;
+    margin: 20px 20px 100px 20px;
     padding: 10px;
     /*max-width for larger screen, change to 100% for smaller */
     max-width: 66.67%;
@@ -80,6 +80,15 @@ hr {
     /* fix image inside of box */
 }
 
+.sticky-footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+    margin-top: 10px;
+}
 
 @media (max-width: 640px) {
     /* spread title 100% width and center text */
@@ -120,5 +129,3 @@ hr {
         margin: 10px 0px 10px 0px;
     }
 }
-
-
