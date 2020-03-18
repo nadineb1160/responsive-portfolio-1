@@ -27,4 +27,5 @@ As a developer, it can be important to create a mobile-first application or add 
 
 ### Author links
 [LinkedIn](https://www.linkedin.com/in/nadine-bundschuh-731233b9)
+|
 [GitHub](https://github.com/nadineb1160)
