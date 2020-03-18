@@ -6,8 +6,8 @@ As a developer, it can be important to create a mobile-first application or add 
 
 ## Website Snapshot
 ===================
-![Image](#)
-![Image](#)
+![Image](Images/sm-screenshot.png)
+![Image](Images/lrg-screenshot.png)
 
 ## Worked with
 1. Responsive Images
