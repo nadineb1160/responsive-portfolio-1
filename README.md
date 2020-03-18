@@ -1,13 +1,8 @@
 # Unit 02: CSS and Bootstrap Homework: Responsive Portfolio
 
-In this assignment, I've created a web page with reponsive design to ensure that web application renders well on a variety of devices and window or screen sizes. 
+In this assignment, I've created a web page with reponsive design to ensure that the web application renders well on a variety of devices and window or screen sizes. 
 
 As a developer, it can be important to create a mobile-first application or add responsive design to an existing applications. 
-
-## Website Snapshot
-===================
-![Image](Images/sm-screenshot.png)
-![Image](Images/lrg-screenshot.png)
 
 ## Worked with
 1. Responsive Images
@@ -17,6 +12,13 @@ As a developer, it can be important to create a mobile-first application or add 
 5. Sticky Footer
 6. Bootstrap Components and Layout
 7. Grid System: wth Sub-rows and Sub-cols
+
+
+## Website Snapshot
+===================
+
+![Image](Images/lrg-screenshot.png)
+![Image](Images/sm-screenshot.png)
 
  ## Technologies Used
 - HTML - used to create elements on the DOM
@@ -29,3 +31,6 @@ As a developer, it can be important to create a mobile-first application or add 
 [LinkedIn](https://www.linkedin.com/in/nadine-bundschuh-731233b9)
 |
 [GitHub](https://github.com/nadineb1160)
+
+### Author Names
+- Nadine Bundschuh
