@@ -118,7 +118,7 @@ h5 {
 #footer-top-border {
     background-color: teal;
     bottom: 10px;
-    z-index: 3;
+    z-index: -1;
 }
 
 /* Footer moved up so text is visible */
