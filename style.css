@@ -157,3 +157,11 @@ h5 {
         min-width: 90%;
     }
 }
+
+/* Helps with transition between screen sizes */
+/* Not necessary */
+@media (max-width: 768px) {
+    .container {
+        min-width: 90%;
+    }
+}
