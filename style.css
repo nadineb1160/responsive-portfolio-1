@@ -110,11 +110,21 @@ h5 {
     position: fixed;
     text-align: center;
     bottom: 0;
-    height: 50px;
+    height:45px;
     width: 100%;
-    margin-top: 10px;
     z-index: 2;
     color: grey;
+}
+
+/* Teal footer */
+#footer-top-border {
+    background-color: teal;
+    z-index: 1;
+}
+
+/* Footer moved up so text is visible */
+#footer {
+    bottom: 15px;
 }
 
 /* **** WHEN SCREEN IS LESS THAT 640PX **** */
