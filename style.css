@@ -86,6 +86,11 @@ h5 {
     
 }
 
+.card-img-overlay {
+    top: 150px;
+    width: 100%;
+}
+
 /* **** CONTACT - PAGE **** */
 
 /* Name and Email form */
