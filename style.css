@@ -54,8 +54,8 @@ h1 {
 #grad {
     float: left;
     /* Padding only around text */
-    padding-right: 20px;
-    padding-bottom: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
 /* Text on About me */
