@@ -1,4 +1,4 @@
-# Unit 02: CSS and Bootstrap Homework: Responsive Portfolio
+# CSS and Bootstrap: Responsive Portfolio
 
 In this assignment, I've created a web page with reponsive design to ensure that the web application renders well on a variety of devices and window or screen sizes. 
 
