@@ -1,6 +1,6 @@
 # CSS and Bootstrap: Responsive Portfolio
 
-In this assignment, I've created a web page with reponsive design to ensure that the web application renders well on a variety of devices and window or screen sizes. 
+I've created a web page with reponsive design to ensure that the web application renders well on a variety of devices and window or screen sizes. 
 
 As a developer, it can be important to create a mobile-first application or add responsive design to an existing applications. 
 
